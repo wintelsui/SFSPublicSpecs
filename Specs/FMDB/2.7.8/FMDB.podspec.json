@@ -18,6 +18,9 @@
     "watchos": "7.0"
   },
   "default_subspecs": "standard",
+  "resource_bundles": {
+    "FMDB": ["privacy/PrivacyInfo.xcprivacy"]
+  },
   "subspecs": [
     {
       "name": "standard",
